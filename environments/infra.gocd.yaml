@@ -4,4 +4,4 @@ environments:
     pipelines:
       - testing-pipelines
       - simple-go-server
-      - Test-REPO10-release
+      - Test-REPO1-release
