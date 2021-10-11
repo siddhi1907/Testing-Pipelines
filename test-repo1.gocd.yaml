@@ -30,7 +30,7 @@ pipelines:
               tasks:
                 - exec:
                     arguments:
-                      - c
+                      - -c
                       - echo "Testing...."
                     command: /bin/bash
                     run_if: passed
