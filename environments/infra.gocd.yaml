@@ -19,3 +19,4 @@ environments:
       - Test-REPO3-release
       - Test-REPO4-release
       - Test-REPO5-release
+      - Test-REPO6-release
