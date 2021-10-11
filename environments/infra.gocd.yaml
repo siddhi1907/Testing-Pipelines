@@ -1,5 +1,5 @@
 format_version: 3
-environment:
+environments:
   infra:
     pipelines:
       - test-repo1
