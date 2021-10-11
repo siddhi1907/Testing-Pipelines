@@ -61,6 +61,10 @@ if [ -d  "$DIR" ]; then
 else
 git clone git@github.com:siddhi1907/testing-pipelines.git
 fi
+
+set +e
+ssh -o StrictHostKeyChecking=no git@github.com
+set -e
 git config --global user.name "siddhi1907"
 git config --global user.email "kadamsiddhi95@gmail.con"
 #git config --global push.default simple

@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
 Server: nginx/1.20.1
-Date: Mon, 11 Oct 2021 03:46:46 GMT
+Date: Mon, 11 Oct 2021 03:49:18 GMT
 Content-Type: application/vnd.go.cd.v7+json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -8,7 +8,7 @@ X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-UA-Compatible: chrome=1
-Set-Cookie: JSESSIONID=node0h4jxgel809j81ctwq23px9kih33.node0; Path=/go; Expires=Mon, 25-Oct-2021 03:46:46 GMT; Max-Age=1209600; Secure; HttpOnly
+Set-Cookie: JSESSIONID=node0qtjtefmfa3at14dfiflkmqqu037.node0; Path=/go; Expires=Mon, 25-Oct-2021 03:49:18 GMT; Max-Age=1209600; Secure; HttpOnly
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
 Cache-Control: max-age=0, private, must-revalidate
 ETag: "cc892dc0841bbdbb6946dbe1c1c63e882eb77b3cba8ef486690ee317c7278113"
