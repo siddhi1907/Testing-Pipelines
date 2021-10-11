@@ -1,6 +1,6 @@
 format_version: 3
 pipelines:
-  testing-pipelines-release:
+  Test-REPO2-release:
     group: defaultGroup
     label_template: ${COUNT}
     lock_behavior: none
