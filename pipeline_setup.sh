@@ -37,14 +37,14 @@ fi
 #while IFS= read -r REPONAME
 ## Build pipeline yaml file
 
-for i in {1..4}
+for i in {1,2}
 do
   echo "Test-REPO$i"
 ## Build pipeline yaml file
 #cd /Users/siddhi.kadam/REPO/gocd-server/repos/gocd-performance-tuning/scripts
 yq d $PROJECT_NAME.gocd.yaml 'pipelines.*.stages' | \
     yq w - "pipelines.$PROJECT_NAME.template" "$template_name" | \
-    sed "s/testing-pipelines.git/Test-REPO$i.git/g;s/$PROJECT_NAME:/$PROJECT_NAME-release:/g" > "Test-REPO$i-release.goc.yaml"
+    sed "s/testing-pipelines.git/Test-REPO$i.git/g;s/$PROJECT_NAME:/$PROJECT_NAME-release:/g" > "Test-REPO$i-release.gocd.yaml"
 #    sed "s/simple-go-server.git/Test-REPO$i.git/g" >> "$PROJECT_NAME-release.gocd.yaml"
 
 #   yq w - "pipelines.$PROJECT_NAME.materials.*.branch" "$BRANCH_NAME" | \
@@ -85,7 +85,7 @@ git config --global user.email "kadamsiddhi95@gmail.con"
 #git checkout $BRANCH_NAME
 
 #mv "../$PROJECT_NAME-release.gocd.yaml" .
-git add .
+git add Test-REPO$i-release.gocd.yaml
 #
 if [ -z "$(git status --porcelain)" ]; then
     echo "Pipelines are upto date"
