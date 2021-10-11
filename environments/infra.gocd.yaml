@@ -7,3 +7,4 @@ environments:
       - Test-REPO1-release
       - Test-REPO1-release
       - Test-REPO2-release
+      - Test-REPO3-release
