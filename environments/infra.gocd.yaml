@@ -19,3 +19,4 @@ environments:
       - Test-REPO13-release
       - Test-REPO14-release
       - Test-REPO15-release
+      - Test-REPO16-release
