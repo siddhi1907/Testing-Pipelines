@@ -17,3 +17,4 @@ environments:
       - Test-REPO11-release
       - Test-REPO12-release
       - Test-REPO13-release
+      - Test-REPO14-release
