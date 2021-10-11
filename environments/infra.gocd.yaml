@@ -14,3 +14,4 @@ environments:
       - Test-REPO8-release
       - Test-REPO9-release
       - Test-REPO10-release
+      - Test-REPO1-release
