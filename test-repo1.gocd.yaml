@@ -25,6 +25,8 @@ pipelines:
           jobs:
             test:
               timeout: 5
+              resources:
+                - Linux
               tasks:
                 - exec:
                     arguments:
