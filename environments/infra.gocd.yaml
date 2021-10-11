@@ -6,3 +6,4 @@ environments:
       - simple-go-server
       - Test-REPO1-release
       - Test-REPO1-release
+      - Test-REPO2-release
