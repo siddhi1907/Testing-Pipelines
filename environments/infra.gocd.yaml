@@ -15,3 +15,4 @@ environments:
       - Test-REPO9-release
       - Test-REPO10-release
       - Test-REPO11-release
+      - Test-REPO12-release
