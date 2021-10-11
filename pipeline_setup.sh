@@ -4,7 +4,7 @@ set -x
 
 
 GITHUBUSER=$(git config github.user)
-INPUT="repo.txt"
+#INPUT="repo.txt"
 
 GOCD_URL=${GOCD_URL:-gocd.example.com}
 PROJECT_NAME=simple-go-server
@@ -41,7 +41,7 @@ for i in {1..4}
 do
   echo "Test-REPO$i"
 ## Build pipeline yaml file
-cd /Users/siddhi.kadam/REPO/gocd-server/repos/gocd-performance-tuning/scripts
+#cd /Users/siddhi.kadam/REPO/gocd-server/repos/gocd-performance-tuning/scripts
 yq d $PROJECT_NAME.gocd.yaml 'pipelines.*.stages' | \
     yq w - "pipelines.$PROJECT_NAME.template" "$template_name" | \
     sed "s/simple-go-server.git/Test-REPO$i.git/g;s/$PROJECT_NAME:/$PROJECT_NAME-release:/g" > "Test-REPO$i-release.gocd.yaml"
@@ -54,19 +54,19 @@ yq d $PROJECT_NAME.gocd.yaml 'pipelines.*.stages' | \
 #set +e
 #ssh -o StrictHostKeyChecking=no git@github.com
 #set -e
-cd ../../../repos/
-DIR=/Users/siddhi.kadam/REPO/gocd-server/repos/Testing-Pipelines
+#cd ../../../repos/
+DIR=/Users/siddhi.kadam/REPO/gocd-server/repos/testing-pipelines
 if [ -d  "$DIR" ]; then
   echo "$DIR exist"
 else
-git clone git@github.com:siddhi1907/Testing-Pipelines.git
+git clone git@github.com:siddhi1907/testing-pipelines.git
 fi
 git config --global user.name "siddhi1907"
 git config --global user.email "kadamsiddhi95@gmail.con"
-git config --global push.default simple
+#git config --global push.default simple
 #
-cd Testing-Pipelines
-mv ../gocd-performance-tuning/scripts/Test-REPO$i-release.gocd.yaml .
+#cd esting-Pipelines
+#mv ../gocd-performance-tuning/scripts/Test-REPO$i-release.gocd.yaml .
 
 
 #mv "$PROJECT_NAME-release.gocd.yaml" ../../../repos/Testing-Pipelines
