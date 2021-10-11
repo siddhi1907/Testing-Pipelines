@@ -7,7 +7,7 @@ pipelines:
     display_order: -1
     materials:
       git:
-        git: https://github.com/siddhi1907/testing-pipelines.git
+        git: https://github.com/siddhi1907/Test-REPO1.git
         shallow_clone: false
         auto_update: true
         branch: master

@@ -44,7 +44,7 @@ do
 #cd /Users/siddhi.kadam/REPO/gocd-server/repos/gocd-performance-tuning/scripts
 yq d $PROJECT_NAME.gocd.yaml 'pipelines.*.stages' | \
     yq w - "pipelines.$PROJECT_NAME.template" "$template_name" | \
-    sed "s/simple-go-server.git/Test-REPO$i.git/g;s/$PROJECT_NAME:/$PROJECT_NAME-release:/g" > "Test-REPO$i-release.gocd.yaml"
+    sed "s/testing-pipelines.git/Test-REPO$i.git/g;s/$PROJECT_NAME:/$PROJECT_NAME-release:/g" > "Test-REPO$i-release.gocd.yaml"
 #    sed "s/simple-go-server.git/Test-REPO$i.git/g" >> "$PROJECT_NAME-release.gocd.yaml"
 
 #   yq w - "pipelines.$PROJECT_NAME.materials.*.branch" "$BRANCH_NAME" | \
