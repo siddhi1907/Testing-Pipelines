@@ -1,0 +1,6 @@
+format version: 3
+environment:
+  infra:
+    pipelines:
+      - test-repo1
+      - simple-go-server
