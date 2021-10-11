@@ -1,3 +1,0 @@
-pipelines:
-  simple-go-server-release:
-    template: test-repo1-1.2
