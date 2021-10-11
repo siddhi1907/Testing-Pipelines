@@ -30,6 +30,7 @@ pipelines:
               tasks:
                 - exec:
                     arguments:
-                      - '#{BRANCH} - #{VERSION}'
-                    command: echo "Testing...."
+                      - c
+                      - echo "Testing...."
+                    command: /bin/bash
                     run_if: passed
