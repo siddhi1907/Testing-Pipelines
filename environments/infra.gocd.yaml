@@ -29,3 +29,4 @@ environments:
       - Test-REPO23-release
       - Test-REPO24-release
       - Test-REPO25-release
+      - Test-REPO26-release
