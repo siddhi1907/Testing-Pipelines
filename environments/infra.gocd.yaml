@@ -27,3 +27,4 @@ environments:
       - Test-REPO21-release
       - Test-REPO22-release
       - Test-REPO23-release
+      - Test-REPO24-release
