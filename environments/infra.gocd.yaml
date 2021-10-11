@@ -22,3 +22,4 @@ environments:
       - Test-REPO16-release
       - Test-REPO17-release
       - Test-REPO18-release
+      - Test-REPO19-release
