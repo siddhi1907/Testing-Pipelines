@@ -7,7 +7,7 @@ GITHUBUSER=$(git config github.user)
 #INPUT="repo.txt"
 
 GOCD_URL=${GOCD_URL:-gocd.example.com}
-PROJECT_NAME=simple-go-server
+PROJECT_NAME=testing-pipelines
 export VERSION=${VERSION:-1.2}
 export BRANCH_NAME="release-$VERSION"
 
