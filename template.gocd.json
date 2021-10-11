@@ -1,5 +1,5 @@
 {
-  "name": "test-repo1",
+  "name": "testing-pipelines",
   "stages": [
     {
       "name": "build",

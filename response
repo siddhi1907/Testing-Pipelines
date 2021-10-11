@@ -1,6 +1,6 @@
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 Server: nginx/1.20.1
-Date: Mon, 11 Oct 2021 03:49:18 GMT
+Date: Mon, 11 Oct 2021 04:01:47 GMT
 Content-Type: application/vnd.go.cd.v7+json;charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -8,56 +8,10 @@ X-XSS-Protection: 1; mode=block
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-UA-Compatible: chrome=1
-Set-Cookie: JSESSIONID=node0qtjtefmfa3at14dfiflkmqqu037.node0; Path=/go; Expires=Mon, 25-Oct-2021 03:49:18 GMT; Max-Age=1209600; Secure; HttpOnly
+Set-Cookie: JSESSIONID=node0prd6kq1fj0wgwl4iky6u0dz849.node0; Path=/go; Expires=Mon, 25-Oct-2021 04:01:47 GMT; Max-Age=1209600; Secure; HttpOnly
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
 Cache-Control: max-age=0, private, must-revalidate
-ETag: "cc892dc0841bbdbb6946dbe1c1c63e882eb77b3cba8ef486690ee317c7278113"
-Vary: Accept-Encoding, User-Agent
+X-Runtime: 1
 Strict-Transport-Security: max-age=31536000; includeSubDomains
 
-{
-  "_links" : {
-    "self" : {
-      "href" : "https://gocd.example.com/go/api/admin/templates/test-repo1-1.2"
-    },
-    "doc" : {
-      "href" : "https://api.gocd.org/21.2.0/#template-config"
-    },
-    "find" : {
-      "href" : "https://gocd.example.com/go/api/admin/templates/:template_name"
-    }
-  },
-  "name" : "test-repo1-1.2",
-  "stages" : [ {
-    "name" : "build",
-    "fetch_materials" : true,
-    "clean_working_directory" : true,
-    "never_cleanup_artifacts" : true,
-    "approval" : {
-      "type" : "success",
-      "allow_only_on_success" : false,
-      "authorization" : {
-        "roles" : [ ],
-        "users" : [ ]
-      }
-    },
-    "environment_variables" : [ ],
-    "jobs" : [ {
-      "name" : "test",
-      "run_instance_count" : null,
-      "timeout" : 5,
-      "environment_variables" : [ ],
-      "resources" : [ "Linux" ],
-      "tasks" : [ {
-        "type" : "exec",
-        "attributes" : {
-          "run_if" : [ "passed" ],
-          "command" : "/bin/bash",
-          "arguments" : [ "-c", "echo \"Testing....\"" ]
-        }
-      } ],
-      "tabs" : [ ],
-      "artifacts" : [ ]
-    } ]
-  } ]
-}
+{"message":"Template with name \u0027testing-pipelines-1.2\u0027 was not found!"}
