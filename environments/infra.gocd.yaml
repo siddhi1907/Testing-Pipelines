@@ -96,3 +96,4 @@ environments:
       - Test-REPO90-release
       - Test-REPO91-release
       - Test-REPO92-release
+      - Test-REPO93-release
