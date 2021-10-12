@@ -3,7 +3,6 @@ environments:
   infra:
     pipelines:
       - testing-pipelines
-      - simple-go-server
       - Test-REPO1-release
       - Test-REPO2-release
       - Test-REPO3-release
