@@ -76,3 +76,4 @@ environments:
       - Test-REPO70-release
       - Test-REPO71-release
       - Test-REPO72-release
+      - Test-REPO73-release
