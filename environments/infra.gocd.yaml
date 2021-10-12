@@ -70,3 +70,4 @@ environments:
       - Test-REPO64-release
       - Test-REPO65-release
       - Test-REPO66-release
+      - Test-REPO67-release
