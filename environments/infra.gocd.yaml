@@ -73,12 +73,12 @@ environments:
       - Test-REPO67-release
       - Test-REPO68-release
       - Test-REPO69-release
-      - Test-REPO70-release
-      - Test-REPO71-release
-      - Test-REPO72-release
-      - Test-REPO73-release
-      - Test-REPO74-release
-      - Test-REPO75-release
-      - Test-REPO76-release
-      - Test-REPO77-release
-      - Test-REPO78-release
+#      - Test-REPO70-release
+#      - Test-REPO71-release
+#      - Test-REPO72-release
+#      - Test-REPO73-release
+#      - Test-REPO74-release
+#      - Test-REPO75-release
+#      - Test-REPO76-release
+#      - Test-REPO77-release
+#      - Test-REPO78-release
