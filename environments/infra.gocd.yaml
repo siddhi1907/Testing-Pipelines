@@ -90,3 +90,4 @@ environments:
       - Test-REPO84-release
       - Test-REPO85-release
       - Test-REPO86-release
+      - Test-REPO87-release
