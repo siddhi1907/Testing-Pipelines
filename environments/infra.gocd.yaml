@@ -88,3 +88,4 @@ environments:
       - Test-REPO82-release
       - Test-REPO83-release
       - Test-REPO84-release
+      - Test-REPO85-release
