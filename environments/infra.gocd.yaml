@@ -68,3 +68,4 @@ environments:
       - Test-REPO62-release
       - Test-REPO63-release
       - Test-REPO64-release
+      - Test-REPO65-release
