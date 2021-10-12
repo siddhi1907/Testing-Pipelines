@@ -103,3 +103,4 @@ environments:
       - Test-REPO97-release
       - Test-REPO98-release
       - Test-REPO99-release
+      - Test-REPO100-release
