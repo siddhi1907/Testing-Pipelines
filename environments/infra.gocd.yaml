@@ -45,3 +45,4 @@ environments:
       - Test-REPO39-release
       - Test-REPO40-release
       - Test-REPO41-release
+      - Test-REPO42-release
