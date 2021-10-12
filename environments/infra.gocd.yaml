@@ -44,3 +44,4 @@ environments:
       - Test-REPO38-release
       - Test-REPO39-release
       - Test-REPO40-release
+      - Test-REPO41-release
