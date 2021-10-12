@@ -36,3 +36,4 @@ environments:
       - Test-REPO30-release
       - Test-REPO31-release
       - Test-REPO32-release
+      - Test-REPO33-release
