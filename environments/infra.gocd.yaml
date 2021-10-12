@@ -51,3 +51,4 @@ environments:
       - Test-REPO45-release
       - Test-REPO46-release
       - Test-REPO47-release
+      - Test-REPO48-release
