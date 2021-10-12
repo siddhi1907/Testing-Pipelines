@@ -85,3 +85,4 @@ environments:
       - Test-REPO79-release
       - Test-REPO80-release
       - Test-REPO81-release
+      - Test-REPO82-release
